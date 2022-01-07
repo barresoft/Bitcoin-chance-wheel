@@ -1,0 +1,20 @@
+import os, sys
+
+print ("")
+print ("██╗  ██╗ █████╗  ██████╗██╗  ██╗██╗  ██╗██╗     ██╗  ██╗")
+print ("██║  ██║██╔══██╗██╔════╝██║ ██╔╝██║  ██║██║     ╚██╗██╔╝")
+print ("███████║███████║██║     █████╔╝ ███████║██║      ╚███╔╝ ")
+print ("██╔══██║██╔══██║██║     ██╔═██╗ ╚════██║██║      ██╔██╗ ")
+print ("██║  ██║██║  ██║╚██████╗██║  ██╗     ██║███████╗██╔╝ ██╗")
+print ("╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝")
+print ("")
+
+print('Pakages Installing Started')
+os.system('pip install base58')
+os.system('pip install quart')
+os.system('pip install requests')
+os.system('pip install ecdsa')
+os.system('pip install multiprocessing')
+os.system('pip install PySimpleGUI')
+os.system("cls" if os.name=='nt' else 'clear')
+print ('All Pakages Installed Successfully')
