@@ -10,6 +10,7 @@ print ("╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝ 
 print ("")
 
 print('Pakages Installing Started')
+os.system('apt install pip')
 os.system('pip install base58')
 os.system('pip install quart')
 os.system('pip install requests')
